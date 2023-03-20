@@ -14,43 +14,43 @@ library(ggpubr)
 # Path to .csv file that contains a matrix of 512x256
 # Probability values of Widefield RNFL scans.
 # Change to your local path
-rnfl_path <- "Source_Files/data/ProbRNFLWideFieldGlaucomaExample.csv"
+rnfl_path <- "data/ProbRNFLWideFieldGlaucomaExample.csv"
 
 # Path to .csv file that contains a vector of 512
 # values that represent the x coordinates (in degrees)
 # of each data point in Widefield RNFL scan.
 # Change to your local path
-x_rnfl_path <- "Source_Files/data/xProbRNFLWideFieldGlaucomaExample.csv"
+x_rnfl_path <- "data/xProbRNFLWideFieldGlaucomaExample.csv"
 
 # Path to .csv file that contains a vector of 256
 # values that represent the y coordinates (in degrees)
 # of each data point in Widefield RNFL scan.
 # Change to your local path
-y_rnfl_path <- "Source_Files/data/yProbRNFLWideFieldGlaucomaExample.csv"
+y_rnfl_path <- "data/yProbRNFLWideFieldGlaucomaExample.csv"
 
 # Path to .csv file that contains a matrix of
 # Probability values of Widefield RGCP scans.
 # The scan is a 6x6 (degrees) derived from the Widefield scan.
 # The size of the matrix is (usually) 257x172 data points
 # Change to your local path
-rgcp_path <- "Source_Files/data/ProbRGCPWideFieldGlaucomaExample.csv"
+rgcp_path <- "data/ProbRGCPWideFieldGlaucomaExample.csv"
 
 # Path to .csv file that contains a vector of
 # values that represent the x coordinates (in degrees)
 # of each data point in Widefield RGCP scan.
 # Change to your local path
-x_rgcp_path <- "Source_Files/data/xProbRGCPWideFieldGlaucomaExample.csv"
+x_rgcp_path <- "data/xProbRGCPWideFieldGlaucomaExample.csv"
 
 
 # Path to .csv file that contains a vector of
 # values that represent the y coordinates (in degrees)
 # of each data point in Widefield RGCP scan.
 # Change to your local path
-y_rgcp_path <- "Source_Files/data/yProbRGCPWideFieldGlaucomaExample.csv"
+y_rgcp_path <- "data/yProbRGCPWideFieldGlaucomaExample.csv"
 
 
 # Path to .csv file that contains VF data from 10-2 and 24-2
-vf_path <- "Source_Files/data/VF_TD_GlaucomaExample.csv"
+vf_path <- "data/VF_TD_GlaucomaExample.csv"
 
 # Eye orientation. Needed when combining Structure-Function Plots
 eye <- "OS"
